@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lógica de Programação em Javascript</h1>
+
+    <script>
+      //pedir ao usuário para digitar dois números
+      //após informar os dois numero aprensentar a soma
+      var n1 = prompt("Digite um número:");
+      n1 = parseFloat(n1);
+      var n2 = prompt("Digite mais um número:");
+      n2 = parseFloat(n2);
+      alert("soma dos números informado foi de: " + (n1 + n2));
+
+      /* No Javascrpit toda informação inserida pelo usuário é interpretada como 
+       string, mesmo que seja inserido um número.
+       para realizar a soma é necessário realizar a "conversão" da informação
+       utilizando o comanda das linha 15 e 17 (parseInt = número inteiro / parseFloat = números com casas decimais)*/
+    </script>
+  </body>
+</html>
