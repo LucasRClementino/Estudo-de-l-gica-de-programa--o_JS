@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<h1>Lógica de Programação em JS - Exercício sobre Condicionais: Controle de decisões (If e Else)</h1>
+<body>
+    <script>
+
+    // fazer jogador 1 e 2 escolherem um número
+    var n1 = Number(prompt("Jogador 1 digite o número: "))  
+    var n2 = Number(prompt("Jogador 2 digite o número: "))
+    
+    //sotear um número entre 0 e 1 
+    var sorteio = parseInt(Math.random() * 2)
+    alert("O número sorteado foi: " + sorteio)
+
+    //se forem iguais, mostrar "empate"
+    //se o número sorteado for 0, ganha quem escolher o número menor
+    //se o número sorteado for 1, ganha quem escolher o número maior
+    if(n1 == n2){
+       alert("EMPATE!")
+    } else
+       if((sorteio == 1) && (n1 > n2)){
+        alert("JOGADOR 1 VENCEU!")
+        }else{
+           alert("JOGADOR 2 VENCEU!")
+       } elseif 
+           if((sorteio == 0) && (n1 < n2)){
+               alert("JOGADOR 1 VENCEU!")
+            }else{
+               ("JOGADOR 2 VENCEU!")
+            }
+   </script>
+
+</body>
+</html>
